@@ -114,5 +114,3 @@ Existing options are detected by scanning the page for text matching
   instance you're authorized to modify.
 - Credentials are never stored. You log in manually in the browser window.
 - Consider testing on a non-production instance or a single field first.
-- Spreadsheets and reports may contain institutional data and are excluded from
-  version control via `.gitignore`.
