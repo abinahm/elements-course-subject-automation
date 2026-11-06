@@ -41,7 +41,8 @@ options = list(dict.fromkeys(
 print(f"Loaded {len(options)} unique options.")
 
 # Open browser
-
+# Feel free to change the code below to the code below and comment out the Chrome webdriver 
+# driver = webdriver.Edge()
 driver = webdriver.Chrome()
 wait = WebDriverWait(driver, 15)
 
