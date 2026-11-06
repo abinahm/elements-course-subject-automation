@@ -17,7 +17,7 @@ you log in once and let the script do the repetitive work.
 ## Requirements
 
 - Python 3.8+
-- Google Chrome
+- Google Chrome or Edge (Changeable based on the code)
 - Python packages:
   - `pandas`
   - `openpyxl` (for reading/writing `.xlsx` files)
@@ -26,6 +26,7 @@ you log in once and let the script do the repetitive work.
 Install the dependencies:
 
 ```bash
+MAC:
 pip install pandas openpyxl selenium
 ```
 
