@@ -11,6 +11,7 @@ from selenium.common.exceptions import TimeoutException
 EXCEL_FILE = "option.xlsx"
 COLUMN_NAME = "Display Name"
 
+# This is a fake URL
 URL = (
     "https://elements.symplectic.org/"
     "underlyingfield.html?"
@@ -41,8 +42,7 @@ options = list(dict.fromkeys(
 print(f"Loaded {len(options)} unique options.")
 
 # Open browser
-# Feel free to change the code below to the code below and comment out the Chrome webdriver 
-# driver = webdriver.Edge()
+
 driver = webdriver.Chrome()
 wait = WebDriverWait(driver, 15)
 
